@@ -1,0 +1,10 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
