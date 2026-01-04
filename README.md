@@ -19,6 +19,9 @@ cd <プロジェクト名>
 # FontAwesome, Bootstrap のインストール
 bun add bootstrap @fortawesome/fontawesome-free
 
+# .nojekyll ファイルの作成
+echo "" > .nojekyll
+
 # 開発サーバの起動
 bun run dev
 ```
