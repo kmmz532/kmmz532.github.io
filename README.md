@@ -23,8 +23,12 @@ bun add bootstrap @fortawesome/fontawesome-free
 bun run dev
 ```
 
+## GitHub Actions の設定
+deploy.yml を利用するには
 
+Settings -> Code and automation の General -> Workflow permissions の Read and write permissions を選択する。
 
+# Next.js README
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
