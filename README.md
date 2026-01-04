@@ -31,6 +31,9 @@ deploy.yml を利用するには
 
 Settings -> Code and automation の General -> Workflow permissions の Read and write permissions を選択する。
 
+## GitHub Pages の設定
+Settings -> Code and automation の Pages -> Build and deployment の Branch を /docs に設定する。
+
 # Next.js README
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
