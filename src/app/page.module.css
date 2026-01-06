@@ -1,16 +1,6 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 9rem);
   align-items: center;
   justify-content: center;
   font-family: var(--font-geist-sans);
@@ -19,21 +9,33 @@
 
 .main {
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 9rem);
   width: 100%;
   max-width: 800px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--foreground);
+  background-color: var(--background);
   padding: 120px 60px;
+}
+
+.main a {
+  color: var(--link);
+}
+
+.main a:hover {
+  color: var(--link-hover);
 }
 
 .intro {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: left; */
+  justify-content: space-between;
+  max-width: 560px;
   gap: 24px;
 }
 
@@ -59,6 +61,89 @@
   font-weight: 500;
   color: var(--text-primary);
 }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.linkIcon {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.linkIcon:hover {
+  color: var(--text-primary);
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+  max-width: 600px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -1.68px;
+  color: var(--text-primary);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* カード間のスペース */
+}
+
+.skillCard {
+  flex: 1 1 300px; /* 幅300pxを目安に横並び */
+  border: 1px solid var(--text-secondary);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+.skillCard h3 {
+  margin-bottom: 8px;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillTags span {
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--text-secondary);
+  font-size: 0.9em;
+  color: var(--text-primary);
+  background-color: rgba(
+    var(--foreground-r),
+    var(--foreground-g),
+    var(--foreground-b),
+    0.15
+  );
+}
+
 
 .ctas {
   display: flex;
@@ -93,6 +178,27 @@ a.secondary {
   border-color: var(--button-secondary-border);
 }
 
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.imageContainer {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin-top: 24px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -113,6 +219,10 @@ a.secondary {
 
   .intro {
     gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .intro h1 {
@@ -120,16 +230,35 @@ a.secondary {
     line-height: 40px;
     letter-spacing: -1.92px;
   }
-}
 
+  .textContainer {
+    align-items: center;
+  }
+
+  .imageContainer {
+    float: none;
+    margin-top: 16px;
+  }
+
+  .profileImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* 
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
   }
 
   .page {
-    --background: #000;
-    --foreground: #000;
+    --background: #0a0a0a;
+    --foreground: #0a0a0a;
 
     --text-primary: #ededed;
     --text-secondary: #999;
@@ -138,4 +267,5 @@ a.secondary {
     --button-secondary-hover: #1a1a1a;
     --button-secondary-border: #1a1a1a;
   }
-}
+} */
+
