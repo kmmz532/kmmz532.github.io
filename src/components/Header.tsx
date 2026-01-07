@@ -10,7 +10,7 @@ export default function Header() {
                     <li><Link href="/" className="title">Kmmz1127</Link></li>
                     <li className="right"><Link href="/about">About</Link></li>
                     <li><Link href="/works">Works</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    {/* <li><Link href="/contact">Contact</Link></li> */}
                 </ul>
             </nav>
         </div>

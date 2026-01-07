@@ -17,7 +17,7 @@ bun create next-app <プロジェクト名> --typescript
 cd <プロジェクト名>
 
 # FontAwesome, Bootstrap のインストール
-bun add bootstrap @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome
+bun add bootstrap @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome react-bootstrap
 
 # .nojekyll ファイルの作成
 echo "" > .nojekyll

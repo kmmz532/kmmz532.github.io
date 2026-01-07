@@ -56,7 +56,7 @@ html, body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -126,7 +126,13 @@ a {
   border-radius: 50%;
   backdrop-filter: blur(3px);
   cursor: pointer;
-  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
 }
 
 .options .icon {
@@ -153,6 +159,7 @@ nav {
 nav ul {
   display: flex;
   width: 100%;
+  margin: 0;
   padding: 0;
   list-style: none;
   gap: 1.5rem;
@@ -186,6 +193,28 @@ nav ul li a:hover {
 .title:hover {
   color: var(--foreground);
   text-decoration: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 10px;
+  opacity: 0.8;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
 }
 
 @media (prefers-color-scheme: dark) {
