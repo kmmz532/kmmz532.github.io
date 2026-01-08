@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Top() {
@@ -28,11 +28,17 @@ export default function Top() {
         </div>
 
         <div className={styles.links}>
-          <Link href="https://github.com/kmmz532" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <FontAwesomeIcon icon={faGithub} className={styles.linkIcon} />
-          </Link>
           <Link href="https://x.com/kmmz1127" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
             <FontAwesomeIcon icon={faTwitter} className={styles.linkIcon} />
+          </Link>
+          <Link href="https://www.instagram.com/_miz210/" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+            <FontAwesomeIcon icon={faInstagram} className={styles.linkIcon} />
+          </Link>
+          <Link href="https://www.facebook.com/profile.php?id=61572863020497&ref=_ig_profile_ac" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+            <FontAwesomeIcon icon={faFacebook} className={styles.linkIcon} />
+          </Link>
+          <Link href="https://github.com/kmmz532" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <FontAwesomeIcon icon={faGithub} className={styles.linkIcon} />
           </Link>
           <Link href="mailto:mizuto1127no01@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
             <FontAwesomeIcon icon={faEnvelope } className={styles.linkIcon} />
@@ -58,6 +64,7 @@ export default function Top() {
                 <span>MT普通自動車</span>
               </div>
             </div>
+
             <div className={styles.skillCard}>
               <h3>プログラミング/その他言語</h3>
               <div className={styles.skillTags}>

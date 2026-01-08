@@ -7,6 +7,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Options from "@/components/Options";
 
+import { motion } from "framer-motion";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,9 +33,9 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
-        <div className="contents">
+        {/* <div className="contents"> */}
           {children}
-        </div>
+        {/* </div> */}
         <Options />
         <div className="footer">
           &copy; 2025-2026 上中野 瑞人 - All Rights Reserved. | mizuto1127no01@gmail.com - Osaka, Japan
