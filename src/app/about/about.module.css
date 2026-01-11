@@ -1,0 +1,87 @@
+.section {
+  padding: 2rem;
+  margin-bottom: 2.8rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,.04);
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: var(--text-primary);
+}
+
+.section h2 svg {
+  color: var(--accent);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: .85rem 1rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  color: var(--text-secondary);
+}
+
+.table th {
+  width: 28%;
+  color: var(--sub);
+  background: var(--background);
+}
+
+.timeline {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.8rem;
+  list-style: none;
+}
+
+.timelineItem {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timelineItem::before {
+  content: "";
+  position: absolute;
+  left: -1.6rem;
+  top: .4rem;
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.timelineTitle {
+  font-weight: 600;
+  margin-bottom: .3rem;
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.4rem;
+  color: var(--text-secondary);
+}
+
+.card svg {
+  font-size: 1.6rem;
+  color: var(--accent);
+  margin-bottom: .6rem;
+}
+
+.card strong {
+    color: var(--text-primary);
+}

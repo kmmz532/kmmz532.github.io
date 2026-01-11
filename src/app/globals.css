@@ -6,6 +6,11 @@
   --link: #0a63d8;
   --link-hover: #1a73e8;
 
+  --card: #ffffff;
+  --sub: #555;
+  --accent: #0a63d8;
+  --border: #e3e3e3;
+
   --background-r: 255;
   --background-g: 255;
   --background-b: 255;
@@ -29,6 +34,11 @@ html.dark {
   --foreground: #ededed;
   --link: #7aa4e8;
   --link-hover: #8ab4f8;
+
+  --card: #252525;
+  --sub: #ccc;
+  --accent: #7aa4e8;
+  --border: #3a3a3a;
 
   --background-r: 26;
   --background-g: 26;
