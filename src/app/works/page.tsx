@@ -1,10 +1,6 @@
 "use client";
-import Image from "next/image";
 import styles from "../page.module.css";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Carousel } from "react-bootstrap";
 
 export default function Works() {
@@ -13,7 +9,7 @@ export default function Works() {
       <main className={styles.main}>
       <h1>Works</h1>
         <div className={styles.content}>
-          <h2>ガラガラ抽選器</h2>
+          <h2>ガラポン抽選器</h2>
           <Carousel className="w-100">
             <Carousel.Item>
               <img
@@ -43,7 +39,7 @@ export default function Works() {
             1等、2等、3等あるため、結果画面が表示されているスマートフォンを部員に見せて景品を渡すという企画でした。<br />
             一人一回のみにするため、IPアドレスで回したことを記録していました。
             <br /><br />
-            GitHub: <a href="https://github.com/kmmz532/kng-44-pc-fes">https://github.com/kmmz532/kng-44-pc-fes</a>
+            GitHub: <Link href="https://github.com/kmmz532/kng-44-pc-fes" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/kng-44-pc-fes</Link>
           </p>
 
           <h2>Rubir.io</h2>
@@ -75,7 +71,7 @@ export default function Works() {
             Agar.ioという粒、敵を吸収して大きくなっていくゲームが元ネタです。Rubyで開発したのでRubir.ioという名前にしました。<br />
             この1回生のフィールドプラクティスという講義で初めてRubyを使い、開発期間はその講義内で3,4回ほど、約2～3週間の短期間だったかと思います。普段、趣味ではウェブやアプリとかばっかりでなかなかゲームなんて作らないので作っていて楽しかったです！<br />
             <br />
-            GitHub: <a href="https://github.com/kmmz532/rubirio">https://github.com/kmmz532/rubirio</a>
+            GitHub: <Link href="https://github.com/kmmz532/rubirio"target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/rubirio</Link>
           </p>
 
           <h2>SQLダンジョン</h2>
@@ -109,8 +105,8 @@ export default function Works() {
             なお、PWAに対応させているのでインストールすることもできます！<br />
             
             <br />
-            SQLダンジョン: <a href="https://kmmz532.github.io/sql-dungeons/">https://kmmz532.github.io/sql-dungeons/</a><br />            
-            GitHub: <a href="https://github.com/kmmz532/sql-dungeons">https://github.com/kmmz532/sql-dungeons</a>
+            SQLダンジョン: <Link href="https://kmmz532.github.io/sql-dungeons/" target="_blank" rel="noopener noreferrer" title="SQLダンジョン">https://kmmz532.github.io/sql-dungeons/</Link><br />
+            GitHub: <Link href="https://github.com/kmmz532/sql-dungeons" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/sql-dungeons</Link>
           </p>
 
           <h2>電研公式サイト</h2>
@@ -135,8 +131,8 @@ export default function Works() {
             フロントエンドはNext.js + Vite + TypeScript + Node.jsでの実装でバックエンド(OSU-Denken Web API)はCloudflare Workersを用いてTypeScriptで実装しています。<br />
             
             <br />
-            電研公式サイト: <a href="https://osu-denken.github.io/">https://osu-denken.github.io/</a><br />            
-            GitHub: <a href="https://github.com/osu-denken/osu-denken.github.io">https://github.com/osu-denken/osu-denken.github.io</a>
+            電研公式サイト: <Link href="https://osu-denken.github.io/" target="_blank" rel="noopener noreferrer" title="電子計算研究部">https://osu-denken.github.io/</Link><br />            
+            GitHub: <Link href="https://github.com/osu-denken/osu-denken.github.io" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/osu-denken/osu-denken.github.io</Link>
           </p>
 
           <h2>Pyssembler</h2>
@@ -145,7 +141,7 @@ export default function Works() {
             それがとにかく、面白くて普段使っている高級言語とは違って実際の処理の動きを直接書いているようで面白みを感じました。とはいえ機械語までは触れてませんが。<br />
             そのため、Python上で動くインタプリタの疑似アセンブラ言語を作りたいと思ったわけです。<br />
             <br />
-            GitHub: <a href="https://github.com/kmmz532/pyssembler">https://github.com/kmmz532/pyssembler</a>
+            GitHub: <Link href="https://github.com/kmmz532/pyssembler" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/pyssembler</Link>
           </p>
 
           <h2>PHPMLearning (AI駆動開発)</h2>
@@ -154,7 +150,7 @@ export default function Works() {
             LLMを使いながらニューラルネットワークをPHPで作ってみました。これってつまり、ニューラルネットワークが活用されたAIがニューラルネットワークを間接的に実装したってことですよね（笑）<br />
             これを開発してニューラルネットワークの仕組みがなんとなくわかったような気がして面白かったです。そしてAIも進化してきたのでより勉強しやすくなった時代に入ったと思いました。とはいっても、複雑なものとなるとまだまだおかしなところもあるので人の手の修正も必要ではありました。<br />
             <br />
-            GitHub: <a href="https://github.com/kmmz532/PHPMLearning">https://github.com/kmmz532/PHPMLearning</a>
+            GitHub: <Link href="https://github.com/kmmz532/PHPMLearning" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/PHPMLearning</Link>
           </p>
 
           <h2>このKmmz1127のウェブサイト</h2>
