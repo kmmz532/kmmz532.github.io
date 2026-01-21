@@ -2,6 +2,8 @@ User-agent: *
 Disallow: /
 
 User-agent: Googlebot
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-Smartphone
 Allow: /
 
 User-agent: bingbot
