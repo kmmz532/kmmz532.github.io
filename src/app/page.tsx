@@ -40,7 +40,7 @@ export default function Top() {
           <Link href="https://github.com/kmmz532" target="_blank" rel="noopener noreferrer" title="GitHub">
             <FontAwesomeIcon icon={faGithub} className={styles.linkIcon} />
           </Link>
-          <Link href="mailto:mizuto1127no01@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+          <Link href="mailto:contact@kmmz.jp" target="_blank" rel="noopener noreferrer" title="Email">
             <FontAwesomeIcon icon={faEnvelope } className={styles.linkIcon} />
           </Link>
         </div>
