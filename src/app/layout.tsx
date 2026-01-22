@@ -38,7 +38,7 @@ export default function RootLayout({
         {/* </div> */}
         <Options />
         <div className="footer">
-          &copy; 2025-2026 上中野 瑞人 - All Rights Reserved. | mizuto1127no01@gmail.com - Osaka, Japan
+          &copy; 2025-2026 上中野 瑞人 - All Rights Reserved. | contact@kmmz.jp - Osaka, Japan
         </div>
       </body>
     </html>
