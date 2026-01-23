@@ -168,6 +168,8 @@ export default function Top() {
           <h2>Other/Works</h2>
           <p>
             PGP公開鍵: <Link href="/public.asc">public.asc</Link><br /><br />
+            <Link href="https://tool.kmmz.jp/">かみみずツール</Link> - 開発したウェブツール<br />
+            <Link href="https://sv.kmmz.jp/wiki/">かみみず備忘録</Link> - 自宅サーバに設置したウィキ<br />
             <Link href="https://kmmz532.github.io/sql-dungeons/">SQLダンジョン</Link> - SQLをゲーム感覚で学習できるウェブアプリ<br />
             <Link href="https://osu-denken.github.io">電研公式サイト</Link> - 大阪産業大学 電子計算研究部の公式サイト<br />
           </p>
