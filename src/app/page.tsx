@@ -31,10 +31,10 @@ export default function Top() {
           <Link href="https://x.com/kmmz1127" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
             <FontAwesomeIcon icon={faTwitter} className={styles.linkIcon} />
           </Link>
-          <Link href="https://www.instagram.com/_miz210/" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+          <Link href="https://www.instagram.com/_miz210/" target="_blank" rel="noopener noreferrer" title="Instagram">
             <FontAwesomeIcon icon={faInstagram} className={styles.linkIcon} />
           </Link>
-          <Link href="https://www.facebook.com/profile.php?id=61572863020497&ref=_ig_profile_ac" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+          <Link href="https://www.facebook.com/profile.php?id=61572863020497&ref=_ig_profile_ac" target="_blank" rel="noopener noreferrer" title="Facebook">
             <FontAwesomeIcon icon={faFacebook} className={styles.linkIcon} />
           </Link>
           <Link href="https://github.com/kmmz532" target="_blank" rel="noopener noreferrer" title="GitHub">
