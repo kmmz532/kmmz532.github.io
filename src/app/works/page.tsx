@@ -9,6 +9,42 @@ export default function Works() {
       <main className={styles.main}>
       <h1>Works</h1>
         <div className={styles.content}>
+          <h2>花粉症・限界突破エクスキューズジェネレーター</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/excuse-by-pollen-1.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/excuse-by-pollen-2.png"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/excuse-by-pollen-3.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            技育CAMP2026 ハッカソン Vol.1にて2週間、即席5人チームで開発したものです。私はフロント側プログラムリーダーを担当、またPM不在時、3日間だけですが、臨時でPMも担当しました。<br />
+            短期間でプロジェクトを進めるには役割分担を予め決めておき、やり取りを柔軟にできるような仕組み作りが必要であると思いました。これを通してメンバー間で通じ合うことの大切さと難しさを学びました。
+            <br />
+            <br />
+            花粉症を理由に言い訳を生成するジョークジェネレーターです。ユーザーは花粉症の症状や状況を入力し、AIがそれに基づいてユニークな言い訳を生成します。<br />
+            生成された言い訳は、SNSで共有できます。そして生成した言い訳をさらに追加で指示して、再生成することもできます。詳しくはGitHubのREADME.mdを見ていただけると嬉しいです！
+            <br /><br />
+            GitHub: <Link href="https://github.com/toriaezu-yattemitai/excuse-by-pollen" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/toriaezu-yattemitai/excuse-by-pollen</Link><br />
+            Website: <Link href="https://excuse-by-pollen.vercel.app/" target="_blank" rel="noopener noreferrer" title="花粉症・限界突破エクスキューズジェネレーター">https://excuse-by-pollen.vercel.app/</Link>
+          </p>
+
           <h2>ガラポン抽選器</h2>
           <Carousel className="w-100">
             <Carousel.Item>
