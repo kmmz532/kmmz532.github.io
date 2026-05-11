@@ -9,6 +9,29 @@ export default function Works() {
       <main className={styles.main}>
       <h1>Works</h1>
         <div className={styles.content}>
+          <h2>持ち物図鑑</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/itempedia-1.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/itempedia-2.png"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            東京・恵比寿にて1dayインターンの中でBolt AIを用いてAI駆動開発を体験したときに開発したものです。<br /><br />
+            ユーザが持ち物の写真をアップロードし、AIがその写真を分析するか手動で情報を入力して、ノードとして管理することができます。<br />
+            ノードとして管理しているので親子関係を設定して、持ち物同士の関連性を表現することができます。<br />
+          </p>
+
           <h2>花粉症・限界突破エクスキューズジェネレーター</h2>
           <Carousel className="w-100">
             <Carousel.Item>
