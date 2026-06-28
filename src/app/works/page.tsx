@@ -8,7 +8,35 @@ export default function Works() {
     <div className={styles.page}>
       <main className={styles.main}>
       <h1>Works</h1>
+
         <div className={styles.content}>
+
+          <h2>Web Authenticator</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/web-authenticator-1.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/upload/web-authenticator-2.png"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            ウェブ上で完結する認証コード（OTP）管理ツールです。<br /><br />
+            自分が使いやすいように作りました。<br />
+            PCでもそのまま使えます。また、PWA対応で、E2EEによるクラウド同期もできます。
+            <br /><br />
+            {/* GitHub: <Link href="https://github.com/kmmz532/web-authenticator" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/web-authenticator</Link><br /> */}
+            Website: <Link href="https://totp.kmmz.jp/" target="_blank" rel="noopener noreferrer" title="Web Authenticator">https://totp.kmmz.jp/</Link>
+          </p>
+          
           <h2>持ち物図鑑</h2>
           <Carousel className="w-100">
             <Carousel.Item>
