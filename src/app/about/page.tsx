@@ -1,18 +1,10 @@
 import parentStyles from "../page.module.css";
 import styles from "./about.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faDiagramProject,
-  faClockRotateLeft,
-  faRocket,
-  faBullseye,
-  faCode,
-  faShieldHalved,
-  faPeopleGroup,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faDiagramProject, faClockRotateLeft, faRocket, faBullseye
+  , faCode, faShieldHalved, faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 
-export default function About() {
+const AboutPage = () => {
   return (
     <div className={parentStyles.page}>
       <main className={parentStyles.main}>
@@ -202,4 +194,6 @@ export default function About() {
       </main>
     </div>
   );
-}
+};
+
+export default AboutPage;
