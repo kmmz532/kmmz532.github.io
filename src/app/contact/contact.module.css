@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  max-width: 560px;
+  width: 100%;
   margin-top: 1.5rem;
 }
 
@@ -27,6 +27,7 @@
   color: var(--text-primary);
   font: inherit;
   resize: vertical;
+  transition: all 0.15s ease-in-out;
 }
 
 .field input:focus,
@@ -37,11 +38,11 @@
 
 .form button {
   align-self: flex-start;
-  padding: .7rem 1.6rem;
+  padding: .5rem 1.2rem;
   border: none;
   border-radius: 8px;
-  background: var(--accent);
-  color: #fff;
+  background: var(--foreground);
+  color: var(--background);
   font: inherit;
   font-weight: 600;
   cursor: pointer;

@@ -40,7 +40,11 @@ const Contact = () => {
     <div className={parentStyles.page}>
       <main className={parentStyles.main}>
         <h1>Contact</h1>
-        <p>お問い合わせは下記のフォームからお願いいたします。</p>
+        <p>
+          <a href="mailto:contact@kmmz.jp">contact@kmmz.jp</a>からご連絡、もしくは下記のフォームからお願いいたします。
+        </p>
+
+        <h2>お問い合わせフォーム</h2>
 
         <form className={styles.form} onSubmit={handleSubmit}>
           <label className={styles.field}>
@@ -48,8 +52,8 @@ const Contact = () => {
             <input type="text" name="name" required maxLength={100} />
           </label>
           <label className={styles.field}>
-            <span>メール</span>
-            <input type="email" name="email" required maxLength={254} />
+            <span>メールアドレス</span>
+            <input type="email" name="email" required maxLength={254} placeholder="abc123@example.com" />
           </label>
           <label className={styles.field}>
             <span>内容</span>
