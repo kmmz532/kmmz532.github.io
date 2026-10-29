@@ -11,6 +11,31 @@ export default function Works() {
 
         <div className={styles.content}>
 
+          <h2>Simple LaTeX Preview</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://blog.kmmz.jp/images/2026/0amtvk0r.webp"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://github.com/kmmz532/vscode-latex-preview/raw/HEAD/images/screenshot.png"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            Web版VSCodeでも利用できるLaTeXプレビュー拡張機能です。<br /><br />
+            LaTeXのコンパイル時間が待ち遠しいのでMarkdownプレビューのようにリアルタイムに表示します。
+            <br /><br />
+            GitHub: <Link href="https://github.com/kmmz532/vscode-latex-preview" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/vscode-latex-preview</Link><br />
+            Website: <Link href="https://blog.kmmz.jp/posts/2026-10-23-84/" target="_blank" rel="noopener noreferrer" title="Simple LaTeX Preview - かみみずブログ">https://blog.kmmz.jp/posts/2026-10-23-84/</Link>
+          </p>
+
           <h2>Web Authenticator</h2>
           <Carousel className="w-100">
             <Carousel.Item>
