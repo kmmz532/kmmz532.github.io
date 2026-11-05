@@ -11,6 +11,24 @@ export default function Works() {
 
         <div className={styles.content}>
 
+          <h2>わたしのネットワーク屋</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img className="d-block w-100" src="https://blog.kmmz.jp/images/2026/5dxigq2z.webp" alt="First slide" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src="https://blog.kmmz.jp/images/2026/wlfez2ly.webp" alt="Second slide" />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            ネットワーク構築を学習する、体験できる経営シミュレーションゲームです。<br /><br />
+            初回は5x5の狭い自社のオフィスで社員2人とデスク2つがあります！<br />
+            社員の給与を払うために、案件を受注し、他社のオフィスにてネットワークを構築するなどして稼ぎます！
+            <br /><br />
+            GitHub: <Link href="https://github.com/kmmz532/my-network-guy" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/my-network-guy</Link><br />
+            Website: <Link href="https://kmmz.jp/my-network-guy/" target="_blank" rel="noopener noreferrer" title="わたしのネットワーク屋">https://kmmz.jp/my-network-guy/</Link>
+          </p>
+
           <h2>Simple LaTeX Preview</h2>
           <Carousel className="w-100">
             <Carousel.Item>
