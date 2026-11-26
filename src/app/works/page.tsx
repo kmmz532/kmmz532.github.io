@@ -11,6 +11,26 @@ export default function Works() {
 
         <div className={styles.content}>
 
+          <h2>Blogit</h2>
+          <Carousel className="w-100">
+            <Carousel.Item>
+              <img className="d-block w-100" src="https://blogit.kmmz.jp/og.png" alt="First slide" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src="https://blogit.kmmz.jp/themes/default-home-dark.png" alt="Second slide" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" src="https://blogit.kmmz.jp/screens/setup-dark.png" alt="Third slide" />
+            </Carousel.Item>
+          </Carousel>
+          <p>
+            GitHub PagesやGitLab Pages、Cloudflare PagesなどでHugoブログを構築するWebツールです。<br /><br />
+            少しの技術的な見識は必要かもしれませんが、無料でブログを構築できます。
+            <br /><br />
+            GitHub: <Link href="https://github.com/kmmz532/blogit" target="_blank" rel="noopener noreferrer" title="GitHub">https://github.com/kmmz532/blogit</Link><br />
+            Website: <Link href="https://blogit.kmmz.jp/" target="_blank" rel="noopener noreferrer" title="Blogit">https://blogit.kmmz.jp/</Link>
+          </p>
+
           <h2>わたしのネットワーク屋</h2>
           <Carousel className="w-100">
             <Carousel.Item>
